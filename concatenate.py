@@ -56,6 +56,8 @@ frame.head()
 
 frame = frame.astype({'Total View Count': 'int16'})
 
+#checking the data format again
+
 frame.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 201210 entries, 0 to 201209
