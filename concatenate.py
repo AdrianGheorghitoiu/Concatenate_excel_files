@@ -52,7 +52,7 @@ frame.drop(['Unnamed: 0'], inplace=True, axis=1)
 frame.head()
 
 [9]
-#changing the data format for 1 column to save space
+#changing the data format to int16 to save space and memory
 
 frame = frame.astype({'Total View Count': 'int16'})
 
