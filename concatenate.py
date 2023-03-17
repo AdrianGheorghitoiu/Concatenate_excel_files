@@ -56,7 +56,7 @@ frame.head()
 
 frame = frame.astype({'Total View Count': 'int16'})
 
-#checking the data format again
+#checking the data format again to make sure the data formats are correct
 
 frame.info()
 <class 'pandas.core.frame.DataFrame'>
